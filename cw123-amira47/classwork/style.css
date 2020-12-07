@@ -1,0 +1,158 @@
+/* Your external CSS styles go here */
+<<<<<<< HEAD
+=======
+
+>>>>>>> html
+body {
+    margin: 40px;
+    font-family: "Adobe Caslon Pro", "Minion Pro", serif;
+    font-size: 12pt;
+}
+
+header {
+    font-family: "Trajan Pro", serif;
+    padding-bottom: 10px;
+}
+
+header h1 {
+    font-size: 20pt;
+    letter-spacing: 2pt;
+    border-bottom: 1px solid black;
+    margin-bottom: 4px;
+    color: rgb(219, 105, 11);
+}
+
+img {
+    border-radius: 8px;
+  }
+
+header span {
+    font-size: 10pt;
+    float: right;
+    color: rgb(233, 134, 54);
+}
+#skill1 {
+    background-color: beige;
+}
+
+section h2 {
+    font-family: "Trajan Pro", serif;
+    font-size: 14pt;
+    color: rgb(233, 134, 54);
+}
+
+section p {
+    margin-left: 40px;
+}
+
+section.coverletter {
+    margin-top: 40px;
+}
+
+
+section ul {
+    list-style-type: circle;
+}
+
+
+.edtable {
+    display: table;
+    width: 100%;
+    margin-left: 20px;
+    padding-bottom: 15px;
+}
+
+.experiencestable {
+    display: table;
+    width: 100%;
+    color: rgb(18, 170, 94);
+}
+
+.skillstable {
+    display: table;
+    width: 100%;
+}
+
+
+.tablerow {
+    display: table-row;
+}
+
+.jobtitle {
+    display: table-cell;
+    font-style: italic;
+}
+
+.right {
+    display: table-cell;
+    text-align: right;
+}
+
+.cell {
+    display: table-cell;
+}
+
+.onlinecell {
+    font-style: italic;
+    padding-right: 10px;
+}
+
+.urlcell {
+    display: table-cell;
+    letter-spacing: 1px;
+}
+
+.pagebreak {
+    page-break-before: always;
+}
+
+table{
+    width: 100%;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+td, th{
+    
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 8px;
+}
+th{
+    height: 30px;
+    background-color: rgb(41, 46, 95);
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color:rgb(255, 255, 255);
+}
+
+tr:nth-child(odd) {
+    background-color:rgb(255, 255, 255);
+}
+
+tr:hover{
+    background-color:rgb(255, 255, 255);
+}
+
+.bttn {
+    font-family: "Trajan Pro", serif;
+    padding: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
